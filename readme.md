@@ -1,7 +1,3 @@
-Here's the updated README with instructions to configure the Alertmanager with your email settings:
-
----
-
 # Node.js Application, Kubernetes Cluster, and Node Monitoring with Prometheus and Grafana
 
 This project demonstrates a comprehensive monitoring setup for a Node.js application deployed on a Kubernetes cluster. Using Prometheus and Grafana, we monitor application metrics, Kubernetes cluster health, and node performance. Alerts are configured to notify about critical conditions, such as high CPU usage and pod restarts.
@@ -80,6 +76,4 @@ Use port-forwarding with `0.0.0.0` for external access to the dashboards:
   kubectl port-forward service/monitoring-kube-prometheus-prometheus -n monitoring 9090:9090 --address 0.0.0.0
   ```
 
----
 
-This README now includes instructions for configuring Alertmanager with your email settings, ensuring you can receive alerts effectively.
